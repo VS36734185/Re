@@ -10,7 +10,7 @@ def screen():
     print(cord2)
     width = (cord2.x - cord1.x)
     height = (cord2.y - cord1.y)
-    print(f"Ширина :{width},| Высота: {height}")
+    print(f"Высота :{width},| Высота: {height}")
     pyg.screenshot("screenshot.png",region = (cord1.x, cord1.y,width,height))
     print("Cкриншот сохранен как screenshot.png")
 #screen()    
